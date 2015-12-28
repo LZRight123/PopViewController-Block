@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "767e1942-28bc-4ad2-8ad2-24185d108248++8560",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "767e1942-28bc-4ad2-8ad2-24185d108248++8560" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "767e1942-28bc-4ad2-8ad2-24185d108248++8560" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0D2B27D2-0C08-43D0-9127-32F83E829A80",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "767e1942-28bc-4ad2-8ad2-24185d108248++8560" : "PopViewController-Block\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CGContextRef",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CGContextRef.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LZRight123\/PopViewController-Block.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "767e1942-28bc-4ad2-8ad2-24185d108248++8560"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/LvZhou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "767e1942-28bc-4ad2-8ad2-24185d108248++8560"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -19,14 +19,12 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信好友" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="464-24-DLO">
                                 <rect key="frame" x="89" y="241" width="48" height="15"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bn9-CQ-i1k">
                                 <rect key="frame" x="10" y="31" width="205" height="205"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Bn9-CQ-i1k" secondAttribute="height" multiplier="1:1" id="jhh-mt-arI"/>
                                 </constraints>
@@ -35,8 +33,6 @@
                                 </state>
                             </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.41960784309999999" green="0.6705882353" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Bn9-CQ-i1k" secondAttribute="trailing" constant="10" id="6uB-g4-EUp"/>
                             <constraint firstAttribute="trailing" secondItem="464-24-DLO" secondAttribute="trailing" id="H0d-bY-UJa"/>
@@ -55,11 +51,8 @@
                         </variation>
                     </view>
                 </subviews>
-                <animations/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
-            <animations/>
-            <color key="backgroundColor" red="0.41960784309999999" green="0.6705882353" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="TDM-S9-xzM" secondAttribute="bottom" id="EZK-xg-Yao"/>
                 <constraint firstAttribute="trailing" secondItem="TDM-S9-xzM" secondAttribute="trailing" id="NAb-ji-fyv"/>

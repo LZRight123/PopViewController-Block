@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAEC08F61C311CB9004FC50F /* LZPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC08F51C311CB9004FC50F /* LZPopViewController.m */; };
+		BAEC08F91C311CF8004FC50F /* CustomShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC08F81C311CF8004FC50F /* CustomShareVC.m */; };
+		BAEC09131C31304E004FC50F /* share-mail-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC08FB1C31304D004FC50F /* share-mail-icon.png */; };
+		BAEC09141C31304E004FC50F /* share-mail-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC08FC1C31304D004FC50F /* share-mail-icon@2x.png */; };
+		BAEC09151C31304E004FC50F /* share-mail-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC08FD1C31304D004FC50F /* share-mail-icon@3x.png */; };
+		BAEC09161C31304E004FC50F /* share-message-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC08FE1C31304D004FC50F /* share-message-icon.png */; };
+		BAEC09171C31304E004FC50F /* share-message-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC08FF1C31304D004FC50F /* share-message-icon@2x.png */; };
+		BAEC09181C31304E004FC50F /* share-message-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09001C31304D004FC50F /* share-message-icon@3x.png */; };
+		BAEC09191C31304E004FC50F /* share-qq-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09011C31304D004FC50F /* share-qq-icon.png */; };
+		BAEC091A1C31304E004FC50F /* share-qq-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09021C31304D004FC50F /* share-qq-icon@2x.png */; };
+		BAEC091B1C31304E004FC50F /* share-qq-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09031C31304D004FC50F /* share-qq-icon@3x.png */; };
+		BAEC091C1C31304E004FC50F /* share-qzone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09041C31304D004FC50F /* share-qzone-icon.png */; };
+		BAEC091D1C31304E004FC50F /* share-qzone-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09051C31304D004FC50F /* share-qzone-icon@2x.png */; };
+		BAEC091E1C31304E004FC50F /* share-qzone-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09061C31304D004FC50F /* share-qzone-icon@3x.png */; };
+		BAEC091F1C31304E004FC50F /* share-sinaweibo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09071C31304D004FC50F /* share-sinaweibo-icon.png */; };
+		BAEC09201C31304E004FC50F /* share-sinaweibo-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09081C31304D004FC50F /* share-sinaweibo-icon@2x.png */; };
+		BAEC09211C31304E004FC50F /* share-sinaweibo-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09091C31304E004FC50F /* share-sinaweibo-icon@3x.png */; };
+		BAEC09221C31304E004FC50F /* share-txweibo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC090A1C31304E004FC50F /* share-txweibo-icon.png */; };
+		BAEC09231C31304E004FC50F /* share-txweibo-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC090B1C31304E004FC50F /* share-txweibo-icon@2x.png */; };
+		BAEC09241C31304E004FC50F /* share-txweibo-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC090C1C31304E004FC50F /* share-txweibo-icon@3x.png */; };
+		BAEC09251C31304E004FC50F /* share-weixing1-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC090D1C31304E004FC50F /* share-weixing1-icon.png */; };
+		BAEC09261C31304E004FC50F /* share-weixing1-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC090E1C31304E004FC50F /* share-weixing1-icon@2x.png */; };
+		BAEC09271C31304E004FC50F /* share-weixing1-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC090F1C31304E004FC50F /* share-weixing1-icon@3x.png */; };
+		BAEC09281C31304E004FC50F /* share-weixing2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09101C31304E004FC50F /* share-weixing2-icon.png */; };
+		BAEC09291C31304E004FC50F /* share-weixing2-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09111C31304E004FC50F /* share-weixing2-icon@2x.png */; };
+		BAEC092A1C31304E004FC50F /* share-weixing2-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEC09121C31304E004FC50F /* share-weixing2-icon@3x.png */; };
 		DF1DED441C26747C0074209E /* CollectionShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1DED421C26747C0074209E /* CollectionShareCell.m */; };
 		DF1DED451C26747C0074209E /* CollectionShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1DED431C26747C0074209E /* CollectionShareCell.xib */; };
 		DFA7046D1C257B3F00D545C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7046C1C257B3F00D545C5 /* main.m */; };
@@ -16,13 +42,40 @@
 		DFA704781C257B3F00D545C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA704771C257B3F00D545C5 /* Assets.xcassets */; };
 		DFA7047B1C257B3F00D545C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA704791C257B3F00D545C5 /* LaunchScreen.storyboard */; };
 		DFA704841C257B4F00D545C5 /* SBView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA704831C257B4F00D545C5 /* SBView.m */; };
-		DFA704871C257E7F00D545C5 /* LZPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA704861C257E7F00D545C5 /* LZPopViewController.m */; };
 		DFA704901C2585D000D545C5 /* CustomTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7048E1C2585D000D545C5 /* CustomTestViewController.m */; };
 		DFA7049B1C258EB300D545C5 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7049A1C258EB300D545C5 /* ShareView.m */; };
 		DFA7049D1C258EBF00D545C5 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA7049C1C258EBF00D545C5 /* ShareView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BAEC08F41C311CB9004FC50F /* LZPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPopViewController.h; sourceTree = "<group>"; };
+		BAEC08F51C311CB9004FC50F /* LZPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPopViewController.m; sourceTree = "<group>"; };
+		BAEC08F71C311CF8004FC50F /* CustomShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomShareVC.h; sourceTree = "<group>"; };
+		BAEC08F81C311CF8004FC50F /* CustomShareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomShareVC.m; sourceTree = "<group>"; };
+		BAEC08FB1C31304D004FC50F /* share-mail-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-mail-icon.png"; sourceTree = "<group>"; };
+		BAEC08FC1C31304D004FC50F /* share-mail-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-mail-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC08FD1C31304D004FC50F /* share-mail-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-mail-icon@3x.png"; sourceTree = "<group>"; };
+		BAEC08FE1C31304D004FC50F /* share-message-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-message-icon.png"; sourceTree = "<group>"; };
+		BAEC08FF1C31304D004FC50F /* share-message-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-message-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC09001C31304D004FC50F /* share-message-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-message-icon@3x.png"; sourceTree = "<group>"; };
+		BAEC09011C31304D004FC50F /* share-qq-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-qq-icon.png"; sourceTree = "<group>"; };
+		BAEC09021C31304D004FC50F /* share-qq-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-qq-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC09031C31304D004FC50F /* share-qq-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-qq-icon@3x.png"; sourceTree = "<group>"; };
+		BAEC09041C31304D004FC50F /* share-qzone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-qzone-icon.png"; sourceTree = "<group>"; };
+		BAEC09051C31304D004FC50F /* share-qzone-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-qzone-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC09061C31304D004FC50F /* share-qzone-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-qzone-icon@3x.png"; sourceTree = "<group>"; };
+		BAEC09071C31304D004FC50F /* share-sinaweibo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-sinaweibo-icon.png"; sourceTree = "<group>"; };
+		BAEC09081C31304D004FC50F /* share-sinaweibo-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-sinaweibo-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC09091C31304E004FC50F /* share-sinaweibo-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-sinaweibo-icon@3x.png"; sourceTree = "<group>"; };
+		BAEC090A1C31304E004FC50F /* share-txweibo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-txweibo-icon.png"; sourceTree = "<group>"; };
+		BAEC090B1C31304E004FC50F /* share-txweibo-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-txweibo-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC090C1C31304E004FC50F /* share-txweibo-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-txweibo-icon@3x.png"; sourceTree = "<group>"; };
+		BAEC090D1C31304E004FC50F /* share-weixing1-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-weixing1-icon.png"; sourceTree = "<group>"; };
+		BAEC090E1C31304E004FC50F /* share-weixing1-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-weixing1-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC090F1C31304E004FC50F /* share-weixing1-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-weixing1-icon@3x.png"; sourceTree = "<group>"; };
+		BAEC09101C31304E004FC50F /* share-weixing2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-weixing2-icon.png"; sourceTree = "<group>"; };
+		BAEC09111C31304E004FC50F /* share-weixing2-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-weixing2-icon@2x.png"; sourceTree = "<group>"; };
+		BAEC09121C31304E004FC50F /* share-weixing2-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-weixing2-icon@3x.png"; sourceTree = "<group>"; };
 		DF1DED411C26747C0074209E /* CollectionShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionShareCell.h; sourceTree = "<group>"; };
 		DF1DED421C26747C0074209E /* CollectionShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionShareCell.m; sourceTree = "<group>"; };
 		DF1DED431C26747C0074209E /* CollectionShareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionShareCell.xib; sourceTree = "<group>"; };
@@ -38,8 +91,6 @@
 		DFA7047C1C257B3F00D545C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFA704821C257B4F00D545C5 /* SBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBView.h; sourceTree = "<group>"; };
 		DFA704831C257B4F00D545C5 /* SBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBView.m; sourceTree = "<group>"; };
-		DFA704851C257E7F00D545C5 /* LZPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPopViewController.h; sourceTree = "<group>"; };
-		DFA704861C257E7F00D545C5 /* LZPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPopViewController.m; sourceTree = "<group>"; };
 		DFA7048D1C2585D000D545C5 /* CustomTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTestViewController.h; sourceTree = "<group>"; };
 		DFA7048E1C2585D000D545C5 /* CustomTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTestViewController.m; sourceTree = "<group>"; };
 		DFA704991C258EB300D545C5 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
@@ -58,6 +109,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAEC08F31C311C8E004FC50F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC08F41C311CB9004FC50F /* LZPopViewController.h */,
+				BAEC08F51C311CB9004FC50F /* LZPopViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		BAEC08FA1C31304D004FC50F /* ShareIcon */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC08FB1C31304D004FC50F /* share-mail-icon.png */,
+				BAEC08FC1C31304D004FC50F /* share-mail-icon@2x.png */,
+				BAEC08FD1C31304D004FC50F /* share-mail-icon@3x.png */,
+				BAEC08FE1C31304D004FC50F /* share-message-icon.png */,
+				BAEC08FF1C31304D004FC50F /* share-message-icon@2x.png */,
+				BAEC09001C31304D004FC50F /* share-message-icon@3x.png */,
+				BAEC09011C31304D004FC50F /* share-qq-icon.png */,
+				BAEC09021C31304D004FC50F /* share-qq-icon@2x.png */,
+				BAEC09031C31304D004FC50F /* share-qq-icon@3x.png */,
+				BAEC09041C31304D004FC50F /* share-qzone-icon.png */,
+				BAEC09051C31304D004FC50F /* share-qzone-icon@2x.png */,
+				BAEC09061C31304D004FC50F /* share-qzone-icon@3x.png */,
+				BAEC09071C31304D004FC50F /* share-sinaweibo-icon.png */,
+				BAEC09081C31304D004FC50F /* share-sinaweibo-icon@2x.png */,
+				BAEC09091C31304E004FC50F /* share-sinaweibo-icon@3x.png */,
+				BAEC090A1C31304E004FC50F /* share-txweibo-icon.png */,
+				BAEC090B1C31304E004FC50F /* share-txweibo-icon@2x.png */,
+				BAEC090C1C31304E004FC50F /* share-txweibo-icon@3x.png */,
+				BAEC090D1C31304E004FC50F /* share-weixing1-icon.png */,
+				BAEC090E1C31304E004FC50F /* share-weixing1-icon@2x.png */,
+				BAEC090F1C31304E004FC50F /* share-weixing1-icon@3x.png */,
+				BAEC09101C31304E004FC50F /* share-weixing2-icon.png */,
+				BAEC09111C31304E004FC50F /* share-weixing2-icon@2x.png */,
+				BAEC09121C31304E004FC50F /* share-weixing2-icon@3x.png */,
+			);
+			path = ShareIcon;
+			sourceTree = "<group>";
+		};
 		DFA7045F1C257B3F00D545C5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,13 +168,15 @@
 		DFA7046A1C257B3F00D545C5 /* CGContextRef */ = {
 			isa = PBXGroup;
 			children = (
+				BAEC08F31C311C8E004FC50F /* Class */,
 				DF1DED411C26747C0074209E /* CollectionShareCell.h */,
 				DF1DED421C26747C0074209E /* CollectionShareCell.m */,
 				DF1DED431C26747C0074209E /* CollectionShareCell.xib */,
-				DFA704851C257E7F00D545C5 /* LZPopViewController.h */,
-				DFA704861C257E7F00D545C5 /* LZPopViewController.m */,
 				DFA7046E1C257B3F00D545C5 /* AppDelegate.h */,
 				DFA7046F1C257B3F00D545C5 /* AppDelegate.m */,
+				BAEC08F71C311CF8004FC50F /* CustomShareVC.h */,
+				BAEC08F81C311CF8004FC50F /* CustomShareVC.m */,
+				BAEC08FA1C31304D004FC50F /* ShareIcon */,
 				DFA704711C257B3F00D545C5 /* ViewController.h */,
 				DFA704721C257B3F00D545C5 /* ViewController.m */,
 				DFA7048D1C2585D000D545C5 /* CustomTestViewController.h */,
@@ -169,9 +262,33 @@
 			files = (
 				DFA7049D1C258EBF00D545C5 /* ShareView.xib in Resources */,
 				DFA7047B1C257B3F00D545C5 /* LaunchScreen.storyboard in Resources */,
+				BAEC09291C31304E004FC50F /* share-weixing2-icon@2x.png in Resources */,
+				BAEC09271C31304E004FC50F /* share-weixing1-icon@3x.png in Resources */,
+				BAEC091E1C31304E004FC50F /* share-qzone-icon@3x.png in Resources */,
+				BAEC091B1C31304E004FC50F /* share-qq-icon@3x.png in Resources */,
+				BAEC09241C31304E004FC50F /* share-txweibo-icon@3x.png in Resources */,
 				DFA704781C257B3F00D545C5 /* Assets.xcassets in Resources */,
+				BAEC09201C31304E004FC50F /* share-sinaweibo-icon@2x.png in Resources */,
+				BAEC09141C31304E004FC50F /* share-mail-icon@2x.png in Resources */,
+				BAEC09281C31304E004FC50F /* share-weixing2-icon.png in Resources */,
+				BAEC09191C31304E004FC50F /* share-qq-icon.png in Resources */,
+				BAEC09131C31304E004FC50F /* share-mail-icon.png in Resources */,
+				BAEC091D1C31304E004FC50F /* share-qzone-icon@2x.png in Resources */,
+				BAEC091A1C31304E004FC50F /* share-qq-icon@2x.png in Resources */,
+				BAEC09251C31304E004FC50F /* share-weixing1-icon.png in Resources */,
+				BAEC091F1C31304E004FC50F /* share-sinaweibo-icon.png in Resources */,
+				BAEC09211C31304E004FC50F /* share-sinaweibo-icon@3x.png in Resources */,
+				BAEC09151C31304E004FC50F /* share-mail-icon@3x.png in Resources */,
+				BAEC09161C31304E004FC50F /* share-message-icon.png in Resources */,
+				BAEC091C1C31304E004FC50F /* share-qzone-icon.png in Resources */,
 				DF1DED451C26747C0074209E /* CollectionShareCell.xib in Resources */,
+				BAEC09221C31304E004FC50F /* share-txweibo-icon.png in Resources */,
+				BAEC09261C31304E004FC50F /* share-weixing1-icon@2x.png in Resources */,
 				DFA704761C257B3F00D545C5 /* Main.storyboard in Resources */,
+				BAEC092A1C31304E004FC50F /* share-weixing2-icon@3x.png in Resources */,
+				BAEC09181C31304E004FC50F /* share-message-icon@3x.png in Resources */,
+				BAEC09231C31304E004FC50F /* share-txweibo-icon@2x.png in Resources */,
+				BAEC09171C31304E004FC50F /* share-message-icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,9 +303,10 @@
 				DFA704901C2585D000D545C5 /* CustomTestViewController.m in Sources */,
 				DFA704701C257B3F00D545C5 /* AppDelegate.m in Sources */,
 				DFA7046D1C257B3F00D545C5 /* main.m in Sources */,
+				BAEC08F61C311CB9004FC50F /* LZPopViewController.m in Sources */,
+				BAEC08F91C311CF8004FC50F /* CustomShareVC.m in Sources */,
 				DFA7049B1C258EB300D545C5 /* ShareView.m in Sources */,
 				DFA704841C257B4F00D545C5 /* SBView.m in Sources */,
-				DFA704871C257E7F00D545C5 /* LZPopViewController.m in Sources */,
 				DF1DED441C26747C0074209E /* CollectionShareCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

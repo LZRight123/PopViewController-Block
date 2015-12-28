@@ -10,16 +10,16 @@
 
 #define kPaddingWithTitle 5
 #define kPaddingWithCell   10
+static NSString *kCollectionShareCell = @"CollectionShareCell";
 @interface CollectionShareCell ()
 @property (weak, nonatomic) IBOutlet UIButton *iconBtn;
 @end
 @implementation CollectionShareCell
-
-- (void)awakeFromNib {
-    // Initialization code
++ (NSString *) kind {
+    return kCollectionShareCell;
 }
+
 - (void) setColor:(UIColor*)color boradColor:(UIColor*)boradColor imageName:(NSString*)imageName title:(NSString*)title{
-    NSLog(@"%f",self.iconBtn.frame.size.width);
     CGFloat width  = (([UIScreen mainScreen].bounds.size.width - 75)/4 - 20);
     self.iconBtn.layer.cornerRadius = width * 0.5;
     self.iconBtn.backgroundColor = color;

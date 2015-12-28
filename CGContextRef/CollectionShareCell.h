@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-static NSString *kCollectionShareCell = @"CollectionShareCell";
+
 @interface CollectionShareCell : UICollectionViewCell
 @property (nonatomic,  weak) IBOutlet UILabel *titleLabel;
-
++ (NSString *) kind;
 - (void) setColor:(UIColor*)color boradColor:(UIColor*)boradColor imageName:(NSString*)imageName title:(NSString*)title;
 @end

@@ -115,7 +115,7 @@ static CGFloat kAnimationDutation = 0.3f;
     self.collectionView.backgroundColor = [UIColor redColor];
     self.collectionView.dataSource = self;
     self.collectionView.delegate   = self;
-    [self.collectionView registerNib:[UINib nibWithNibName:kCollectionShareCell bundle:nil] forCellWithReuseIdentifier:kCollectionShareCell];
+//    [self.collectionView registerNib:[UINib nibWithNibName:kCollectionShareCell bundle:nil] forCellWithReuseIdentifier:kCollectionShareCell];
     flow.minimumInteritemSpacing = 15;
     flow.minimumLineSpacing =0;
     // 上 左 下 右
@@ -134,32 +134,6 @@ static CGFloat kAnimationDutation = 0.3f;
     return background ;
 }
 - (void) clickCancelBtn{
-    [self dismiss];
-}
-#pragma mark - collectionView 数据源代理
-- (void) setText:(NSString *)text{
-    _text = text;
-    [self.collectionView reloadData];
-}
-- (NSInteger) collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 8;
-}
-- (UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath  {
-    CollectionShareCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCollectionShareCell forIndexPath:indexPath];
-    if (self.text) {
-        cell.titleLabel.text = self.text;
-    }else{
-          cell.titleLabel.text = @"wlajsdljf";
-    }
-  
-  
-    return cell;
-}
-
-- (void) collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    if (_clickCollectionCell) {
-        _clickCollectionCell(indexPath.row);
-    }
     [self dismiss];
 }
 // ======================== 淡入淡出视图 ===================
